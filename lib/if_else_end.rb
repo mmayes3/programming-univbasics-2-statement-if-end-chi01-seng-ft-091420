@@ -1,2 +1,3 @@
 time = Time.now.to_i
-puts time
+if (time % 2 == 0)
+  puts ""
